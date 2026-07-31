@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+class Bank{
+public:
+    int amount;
+};
+
+int main(){
+    Bank b;
+    cin>>b.amount;
+    cout<<"Balance: "<<b.amount;
+}
