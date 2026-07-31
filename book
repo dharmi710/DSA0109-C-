@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+class Book{
+public:
+    string name;
+    int price;
+};
+
+int main(){
+    Book b;
+    cin>>b.name>>b.price;
+    cout<<"Book: "<<b.name<<endl;
+    cout<<"Price: "<<b.price;
+}
