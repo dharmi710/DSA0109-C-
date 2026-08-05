@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+class A{
+public:
+    int x;
+    void input(){ cin>>x; }
+    void operator++(){
+        ++x;
+    }
+};
+
+int main(){
+    A a;
+    a.input();
+    ++a;
+    cout<<a.x;
+}
